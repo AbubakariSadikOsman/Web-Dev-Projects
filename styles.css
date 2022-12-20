@@ -1,0 +1,49 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 1rem 20% 2rem;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 1.3rem;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+.schedule {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.in-form table, tr, th, td{
+    padding: 0.2rem;
+    border: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}

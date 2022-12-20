@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Abubakari Sadik Osman">
+    <meta name="description" content="This contains all the lessons on HTML chapters put togethera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First Web Page</title>
+    <link rel="icon" href="img/html5.png" type="image/x-icon">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="main-head">My Goals for the Year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning Vacation</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html">
+            <h2>I'm Ready to Learn <abbr title="HyperText Markup Language">HTML</abbr></h2>
+            <p>This is my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.png" alt="HTML5 Icon" title="I'm learning HTML" width="300" height="300">
+                <figure>
+                    <figcaption>An Example of HTML5 code</figcaption>
+                    <p>
+                        <code>
+                            &lt;h1&gt;Hello World!&lt;/h1&gt;
+                        </code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li> ...I learn more about web dev.</li>
+                    <li> ...I plan out my schedule.</li>
+                    <li> ...I use resources from <a href="https://developer.mozilla.org"><abbr title="Mozilla Developer Network">MDN</abbr></a>.</li>
+                </ol>
+
+                <aside>
+                    <details>
+                        <summary>
+                            Guess the <mark>number of hours</mark> I code per day
+                        </summary>
+                        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning</p>
+                    </details>
+                </aside>
+                <br>
+                <table class="schedule">  
+                    <caption class="schedule">My Daily Schedule</caption>
+                    <thead>
+                        <tr class="schedule">
+                            <th class="schedule"></th>
+                            <th class="schedule">Time</th>
+                            <th class="schedule">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="schedule">
+                            <th class="schedule">Morning</th>
+                            <td class="schedule"><time datetime="08:00">8am</time> - <time datetime="11:00">11am</time></td>
+                            <td class="schedule">Write Code 👨‍💻👨‍💻👨‍💻</td>
+                        </tr>
+                        <tr class="schedule">
+                            <th class="schedule">Break</th>
+                            <td class="schedule"><time datetime="11:00">11am</time> - <time datetime="12:00">12pm</time></td>
+                            <td class="schedule">Eat Lunch 🥙🥪🍦</td>
+                        </tr>
+                        <tr class="schedule">
+                            <th class="schedule">Afternoon</th>
+                            <td class="schedule"><time datetime="12:00">12pm</time> - <time datetime="17:00">5pm</time></td>
+                            <td class="schedule">Study for other courses 📚🙇‍♂️📑</td>
+                        </tr>
+                        <tr class="schedule">
+                            <th class="schedule">Evening</th>
+                            <td class="schedule" rowspan="2">All Other Times</td>
+                            <td class="schedule">Free Time</td>
+                        </tr>
+                        <tr class="schedule">
+                            <th class="schedule">Night</th>
+                            <td class="schedule">🥱 Sleep 🛌</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="schedule">
+                            <td  colspan="3" class="schedule">And that's what I do every day, 5 days a week. Just eat, sleep, code ...and recharge!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <article id="vacation">
+            <h2>I Am Also Planning a Vacation</h2>
+            <p>
+                I've been working hard and <em>really need a getaway</em>.
+            </p>
+            <p>
+                I live in <abbr title="North Legon">NN</abbr> so I want visit a beach.
+            </p>
+
+            <section>
+                <h3>Places I'd Like to Visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about the Caribbean.</p>
+                        <figure>
+                            <img src="img/caribbean.jpg" title="The Caribean Beach" alt="Caribbean Beach" width="400" height="225" loading="lazy">
+                            <figcaption>
+                                Caribbean Beach Getaway
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <address>
+                            Margaritaville Island Reserve Riviera Cancún Bahia Petempich Puerto Morelos, Mexico Colonia Morelos, México 77580
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="My vacation bridge image" title="A bridge to a Cancun beach" width="400" height="267" loading="lazy">
+                            <figcaption>
+                                A Caribbean Vacation Image
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Places I Want to Avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this <strong>cold</strong>!</dd>
+                    <dt>South Pole</dt>
+                    <dd>This is also cold.</dd>
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+
+        <hr>
+
+        <h2 id="contact">Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+        <form action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <table class="in-form">
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName">First Name:</label></td>
+                            <td><input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastName">Last Name:</label></td>
+                            <td><input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" name="email" id="email" placeholder="jane.doe@xyz.com" autocomplete="on" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input type="password" name="password" id="password" placeholder="Your secret" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="countryCode">Country Code:</label></td>
+                            <td>
+                                <input type="text" list="country-code" id="countryCode">
+                                <datalist id="country-code">
+                                    <option value="🇿🇦 +167">
+                                    <option value="🇬🇭 +233">
+                                    <option value="🇹🇬 +321"> 
+                                    <option value="🇺🇸 +148">
+                                    <option value="🇯🇵 +346">
+                                    <option value="🇨🇳 +112">
+                                    <option value="🇬🇧 +567">
+                                    <option value="🇫🇷 +531">
+                                    <option value="🇦🇷 +187">
+                                </datalist>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="phoneNumber">Phone:</label></td>
+                            <td><input type="text" name="phoneNumber" id="phoneNumber" pattern="[0-9]{3}[0-9]{3[0-9]{4}" placeholder="1234567890"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="decade">Favorite Decade</label></td>
+                            <td>
+                                <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="2000">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="drinks">Favorite Drinks</label></td>
+                            <td> <select name="drinks" id="drinks">
+                                <optgroup label="Coffees">
+                                    <option value="regular coffee">Regular Coffee</option>
+                                    <option value="iced coffee">Iced Coffee</option>
+                                </optgroup>
+                                <optgroup label="Soft Drinks">
+                                    <option value="tampico">Tampico</option>
+                                    <option value="fruit telli">Fruit Telli</option>
+                                    <option value="don simon">Don Simon</option>
+                                    <option value="kalippo" selected>Kalippo</option>
+                                </optgroup>
+                                <optgroup label="Energy Drinks">
+                                    <option value="five star">5 Star</option>
+                                    <option value="big boss">Big Boss</option>
+                                    <option value="rush">Rush</option>
+                                    <option value="royal apple">Royal Apple</option>
+                                </optgroup>
+                                <option value="otherDrink">Other</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male 👨🏻</label>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female 👩🏻</label>
+                                <input type="radio" name="gender" id="other">
+                                <label for="other">Other</label>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <input type="checkbox" name="pets" id="dog">
+                <label for="dog">Dog 🐕</label>
+                <br>
+                <input type="checkbox" name="pets" id="cat">
+                <label for="cat">Cat 🐈</label>
+                <br>
+                <input type="checkbox" name="pets" id="parrot">
+                <label for="parrot">Parrot 🦜</label>
+                <br>
+                <input type="checkbox" name="pets" id="fish">
+                <label for="fish">Fish 🐠</label>
+                <br>
+                <input type="checkbox" name="pets" id="otherPet">
+                <label for="otherPet">Other</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="45" rows="10" placeholder="Type your message here..."></textarea>
+            </fieldset>
+            <p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </p>
+            <p style="text-align: right;">
+                <a href="#main-head">Back to Top</a>
+            </p>
+        </form>
+    </main>
+    <hr>   
+    <footer>
+        <p style="text-align: center;">
+            &lt;&lt;&lt; &copy;<a href="#contact">Abubakari Sadik Osman</a> ✍️ @2022 &gt;&gt;&gt;
+        </p>
+    </footer>
+</body>
+
+</html>
